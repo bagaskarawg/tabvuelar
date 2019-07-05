@@ -94,6 +94,11 @@
                 required: false,
                 'default': true
             },
+            axiosConfig: {
+                type: Object,
+                reqyured: false,
+                'default': {}
+            }
         },
         created: function () {
 
@@ -110,14 +115,16 @@
 
                 const api_url = url ? url : this.apiUrl;
                 let _this = this;
-
-                axios.get(api_url, {
+                let config = {
                     params: {
                         perPage: this.itemsPerPage,
                         sort: this.sort,
                         filter: this.filter
                     }
-                })
+                };
+                config = {...config, ...this.axiosConfig};
+
+                axios.get(api_url, config)
                     .then(response => {
 
                         if (response.status === 200) {
