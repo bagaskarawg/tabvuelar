@@ -20,5 +20,13 @@
     "vue": "^2.5.7",
     "vue-events": "^3.1.0",
     "vue-spinner": "^1.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagaskarawg/tabvuelar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bagaskarawg/tabvuelar/issues"
+  },
+  "homepage": "https://github.com/bagaskarawg/tabvuelar#readme"
 }
