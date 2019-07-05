@@ -1,5 +1,6 @@
 <script>
     import Vue from 'vue';
+    import axios from 'axios';
     import VueEvents from 'vue-events';
     import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
 

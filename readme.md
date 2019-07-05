@@ -7,7 +7,7 @@ Using this package you can build tables in the simplest way in a web app using [
 
 Just run on the CLI:
 
-`npm install @noisim/tabvuelar --save`
+`npm install @bagaskarawg/tabvuelar --save`
 
 The package will be installed, and will be part of the `node_modules` directory.
 
@@ -16,14 +16,14 @@ Include [Font Awesome](http://fontawesome.io/) and [Bootstrap 3](https://getboot
 Import the package:
 
 ```js
-import TabVueLar from '@noisim/tabvuelar';
+import TabVueLar from '@bagaskarawg/tabvuelar';
 ```
 
 Use it:
 
 ```js
 import Vue from 'vue';
-import TabVueLar from '@noisim/tabvuelar';
+import TabVueLar from '@bagaskarawg/tabvuelar';
 
 Vue.use(TabVueLar);
 ```

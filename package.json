@@ -1,5 +1,5 @@
 {
-  "name": "@noisim/tabvuelar",
+  "name": "@bagaskarawg/tabvuelar",
   "version": "1.0.0",
   "description": "Table for Vue.js and Laravel",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "laravel",
     "noisim"
   ],
-  "author": "Alban Afmeti <albanafmeti@gmail.com> (http://techalin.com)",
+  "author": "Bagaskara Wisnu Gunawan <bagaswisnu07@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.17",
